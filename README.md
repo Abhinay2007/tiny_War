@@ -65,6 +65,31 @@ media blobs in the `tiny-army-data` named volume. Stop it with `Ctrl+C`, or use
 To use a different host port, set `TINY_ARMY_HOST_PORT` in `.env`, for example
 `TINY_ARMY_HOST_PORT=8080`, then open `http://localhost:8080`.
 
+## Deploy to Render
+
+Tiny Army can run as a Render **Web Service** using the repository Dockerfile.
+The web app listens on `0.0.0.0` and uses Render's injected `PORT` value (with
+`7860` as its local default). Do not set a fixed `PORT` in Render's environment.
+
+1. In Render, create a **New Web Service** and connect the repository.
+2. Choose **Docker** as the runtime and leave the Dockerfile path as `./Dockerfile`.
+3. Add the environment variables the features you want need. Set
+   `TINY_AYA_SPACE` to the Tiny Aya Space identifier or URL to enable AI hero and
+   text generation. Add `HF_TOKEN` only if that Space requires authentication.
+   Klein, VoxCPM, and other optional service variables can remain unset.
+4. Set the service health check path to `/health`.
+5. Deploy. Render assigns a public service URL; open that URL after the deploy
+   reports healthy.
+
+The `/health` response is `{"status":"ok"}` and checks only that the web
+application is responding. It does not require Tiny Aya or optional model
+services to be available. Render supplies the listening port automatically;
+the Dockerfile's `EXPOSE 7860` is only the local default/documentation port.
+
+The main app container does not require a GPU, CUDA, or a local Python/Node
+installation. Tiny Aya and optional Klein/VoxCPM services run separately; no
+model weights are included in the Docker image.
+
 ## Docker Without Compose
 
 ```bash

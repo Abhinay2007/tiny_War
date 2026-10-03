@@ -305,6 +305,12 @@ with gr.Blocks(title="Tiny Army") as ui:
 fastapi_app = gr.Server() if USE_GRADIO_SERVER else FastAPI()
 
 
+@fastapi_app.get("/health")
+async def health():
+    """Lightweight container/platform health check; model services are optional."""
+    return {"status": "ok"}
+
+
 # Behind HF's custom-domain proxy Gradio emits its theme.css <link> as http://
 # (the app doesn't see HTTPS), and that link is in the HTML *before* our head=
 # meta — so a meta CSP can't upgrade it in time. Sending the CSP as a response
