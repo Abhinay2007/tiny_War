@@ -1,0 +1,1335 @@
+{
+  "generatedFrom": "Minifantasy Assets (Trinity Labs)",
+  "packs": [
+    {
+      "slug": "dark-brotherhood",
+      "name": "Dark Brotherhood",
+      "characters": [
+        {
+          "name": "Acolyte",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/Attack.png",
+          "attackOrtho": true,
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Acolyte/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-acolyte"
+        },
+        {
+          "name": "Dark Abomination",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Abomination/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-dark-abomination"
+        },
+        {
+          "name": "Dark Channeler",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/Possess.png",
+          "attackVerb": "possess",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/_Shadows/possess_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Dark_Channeler/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-dark-channeler"
+        },
+        {
+          "name": "Dark Cultist",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Cultist/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-dark-cultist"
+        },
+        {
+          "name": "Dark Hound",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Possessed/Dark_Hound/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-dark-hound"
+        },
+        {
+          "name": "Devoted Blade",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Blade/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-devoted-blade"
+        },
+        {
+          "name": "Devoted Sentinel",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/Attack.png",
+          "attackOrtho": true,
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Sentinel/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-devoted-sentinel"
+        },
+        {
+          "name": "Devoted Stalker",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/Shot_Orthogonal.png",
+          "attackVerb": "shoot",
+          "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/Shot_Diagonal.png",
+          "attackProjectile": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/Shot_Projectile.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/_Shadows/Shot_Orthogonal_Shadow.png",
+            "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/_Shadows/Shot_Diagonal_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Devoted_Brothers/Devoted_Stalker/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-devoted-stalker"
+        },
+        {
+          "name": "Flagellant",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Flagellant/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-flagellant"
+        },
+        {
+          "name": "Hound",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/_Shadows/Die_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "bark",
+              "name": "Bark",
+              "url": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/Bark.png",
+              "shadow": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Hound/_Shadows/Bark_Shadow.png"
+            }
+          ],
+          "slug": "dark-brotherhood-hound"
+        },
+        {
+          "name": "Ritual Guard",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Choosen_Ones/Ritual_Guard/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-ritual-guard"
+        },
+        {
+          "name": "Zealot",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Brotherhood_v1.0/Dark_Brotherhood/Cannon_Fodder/Zealot/_Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-brotherhood-zealot"
+        }
+      ]
+    },
+    {
+      "slug": "dark-orc-army",
+      "name": "Dark Orc Army",
+      "characters": [
+        {
+          "name": "Cave Troll",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Cave_Troll/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-cave-troll"
+        },
+        {
+          "name": "Feral Arbalist",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/Shot_Orthogonal.png",
+          "attackVerb": "shoot",
+          "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/Shot_Diagonal.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/__Shadows/Shot_Orthogonal_Shadow.png",
+            "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/__Shadows/Shot_Diagonal_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Arbalist/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-feral-arbalist"
+        },
+        {
+          "name": "Feral Berserker",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Berserker/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-feral-berserker"
+        },
+        {
+          "name": "Feral Blade",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Blade/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-feral-blade"
+        },
+        {
+          "name": "Feral Phalanx",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/Attack.png",
+          "attackOrtho": true,
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Feral_Orcs/Feral_Phalanx/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-feral-phalanx"
+        },
+        {
+          "name": "Orc Blade",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Blade/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-orc-blade"
+        },
+        {
+          "name": "Orc Raider",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/__Shadows/Die_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "bite",
+              "name": "Bite",
+              "url": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/Bite.png",
+              "shadow": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Raider/__Shadows/Bite_Shadow.png"
+            }
+          ],
+          "slug": "dark-orc-army-orc-raider"
+        },
+        {
+          "name": "Orc Scout",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/Shot_Orthogonal.png",
+          "attackVerb": "shoot",
+          "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/Shot_Diagonal.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/__Shadows/Shot_Orthogonal_Shadow.png",
+            "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/__Shadows/Shot_Diagonal_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Lesser_Orcs/Orc_Scout/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-orc-scout"
+        },
+        {
+          "name": "Pale Champion",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Pale_Champion/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-pale-champion"
+        },
+        {
+          "name": "Warbreed Arbalist",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/Shot_Orthogonal.png",
+          "attackVerb": "shoot",
+          "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/Shot_Diagonal.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/__Shadows/Shot_Orthogonal_Shadow.png",
+            "attackDiagonal": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/__Shadows/Shot_Diagonal_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Arbalist/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-warbreed-arbalist"
+        },
+        {
+          "name": "Warbreed Berserker",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Berserker/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-warbreed-berserker"
+        },
+        {
+          "name": "Warbreed Blade",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Blade/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-warbreed-blade"
+        },
+        {
+          "name": "Warbreed Phalanx",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/Attack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/__Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Warbreed_Orcs/Warbreed_Phalanx/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-warbreed-phalanx"
+        },
+        {
+          "name": "Warg",
+          "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/Bite.png",
+          "attackVerb": "bite",
+          "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/Die.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/__Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/__Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/__Shadows/Bite_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/__Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Dark_Orc_Army_v1.0/Dark_Orc_Army/Others/Warg/__Shadows/Die_Shadow.png"
+          },
+          "slug": "dark-orc-army-warg"
+        }
+      ]
+    },
+    {
+      "slug": "medieval-carnival",
+      "name": "Medieval Carnival",
+      "characters": [
+        {
+          "name": "Buffon",
+          "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/Idle_buffon.png",
+          "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/Walk_buffon.png",
+          "attack": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/Special_buffon.png",
+          "attackVerb": "special",
+          "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/Dmg_buffon.png",
+          "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/Die_buffon.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/_Shadows/Idle_shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/_Shadows/Walk_shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/_Shadows/Special_shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/_Shadows/Dmg_shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Buffon/_Shadows/Die_shadow.png"
+          },
+          "slug": "medieval-carnival-buffon"
+        },
+        {
+          "name": "Crier",
+          "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/Idle_crier.png",
+          "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/Walk_crier.png",
+          "attack": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/Special_crier.png",
+          "attackVerb": "special",
+          "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/Dmg_crier.png",
+          "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/Die_crier.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/_Shadows/Idle_shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/_Shadows/Walk_shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/_Shadows/Special_shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/_Shadows/Dmg_shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Crier/_Shadows/Die_shadow.png"
+          },
+          "slug": "medieval-carnival-crier"
+        },
+        {
+          "name": "Fortune Teller",
+          "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/Idle_fortuneteller.png",
+          "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/Walk_fortuneteller.png",
+          "attack": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/Special_fortuneteller.png",
+          "attackVerb": "special",
+          "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/Dmg_fortuneteller.png",
+          "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/Die_fortuneteller.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/_Shadows/Idle_shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/_Shadows/Walk_shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/_Shadows/Dmg_shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Fortune%20Teller/_Shadows/Die_shadow.png"
+          },
+          "slug": "medieval-carnival-fortune-teller"
+        },
+        {
+          "name": "Juggler",
+          "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/Idle_juggler.png",
+          "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/Walk_juggler.png",
+          "attack": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/Special_juggler.png",
+          "attackVerb": "special",
+          "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/Dmg_juggler.png",
+          "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/Die_juggler.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/_Shadows/Idle_shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/_Shadows/Walk_shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/_Shadows/Special_shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/_Shadows/Dmg_shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Juggler/_Shadows/Die_shadow.png"
+          },
+          "slug": "medieval-carnival-juggler"
+        },
+        {
+          "name": "Merchant 1",
+          "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/Idle_merchant1.png",
+          "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/Walk_merchant1.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/Dmg_merchant1.png",
+          "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/Die_merchant1.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/_Shadows/Idle_shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/_Shadows/Walk_shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/_Shadows/Dmg_shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%201/_Shadows/Die_shadow.png"
+          },
+          "slug": "medieval-carnival-merchant-1"
+        },
+        {
+          "name": "Merchant 2",
+          "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/Idle_merchant2.png",
+          "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/Walk_merchant2.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/Dmg_merchant2.png",
+          "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/Die_merchant2.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/_Shadows/Idle_shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/_Shadows/Walk_shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/_Shadows/Dmg_shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%202/_Shadows/Die_shadow.png"
+          },
+          "slug": "medieval-carnival-merchant-2"
+        },
+        {
+          "name": "Merchant 3",
+          "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/Idle_merchant3.png",
+          "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/Walk_merchant3.png",
+          "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/Dmg_merchant3.png",
+          "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/Die_merchant3.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/_Shadows/Idle_shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/_Shadows/Walk_shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/_Shadows/Dmg_shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_Medieval_Carnival_v1.0/Minifantasy_Medieval_Carnival_Assets/Carnival%20NPCs/Merchants/Merchant%203/_Shadows/Die_shadow.png"
+          },
+          "slug": "medieval-carnival-merchant-3"
+        }
+      ]
+    },
+    {
+      "slug": "rts-humans",
+      "name": "RTS Humans",
+      "characters": [
+        {
+          "name": "Archer",
+          "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/Idle/Idle_red.png",
+          "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/Walk/Walk_red.png",
+          "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/Attack/Attack_red.png",
+          "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/Dmg/Dmg_red.png",
+          "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/Die/Die_red.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Archer/_Shadows/Die_Shadow.png"
+          },
+          "slug": "rts-humans-archer"
+        },
+        {
+          "name": "Knight",
+          "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/Idle/Idle_red.png",
+          "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/Walk/Walk_red.png",
+          "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/Attack/Attack_red.png",
+          "attackOrtho": true,
+          "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/Dmg/Dmg_red.png",
+          "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/Die/Die_red.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Knight/_Shadows/Die_Shadow.png"
+          },
+          "slug": "rts-humans-knight"
+        },
+        {
+          "name": "Spearman",
+          "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/Idle/Idle_red.png",
+          "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/Walk/Walk_red.png",
+          "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/Attack/Attack_red.png",
+          "attackOrtho": true,
+          "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/Dmg/Dmg_red.png",
+          "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/Die/Die_red.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Spearman/_Shadows/Die_Shadow.png"
+          },
+          "slug": "rts-humans-spearman"
+        },
+        {
+          "name": "Swordsman",
+          "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/Idle/Idle_red.png",
+          "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/Walk/Walk_red.png",
+          "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/Attack/Attack_red.png",
+          "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/Dmg/Dmg_red.png",
+          "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/Die/Die_red.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Swordsman/_Shadows/Die_Shadow.png"
+          },
+          "slug": "rts-humans-swordsman"
+        },
+        {
+          "name": "Worker",
+          "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/Idle/Idle_red.png",
+          "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/Walk/Walk_red.png",
+          "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/Dmg/Dmg_red.png",
+          "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/Die/Die_red.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/_Shadows/Walk_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/_Shadows/Die_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "attack-axe",
+              "name": "Attack Axe",
+              "url": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/Attack_Axe/Attack_Axe_red.png",
+              "shadow": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/_Shadows/Attack_Shadow.png"
+            },
+            {
+              "key": "attack-hammer",
+              "name": "Attack Hammer",
+              "url": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/Attack_Hammer/Attack_Hammer_red.png",
+              "shadow": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/_Shadows/Attack_Shadow.png"
+            },
+            {
+              "key": "attack-pickaxe",
+              "name": "Attack Pickaxe",
+              "url": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/Attack_Pickaxe/Attack_Pickaxe_red.png",
+              "shadow": "/assets/minifantasy/Minifantasy_RTS_Humans_v1.0/RTS_Humans/Units/Worker/_Shadows/Attack_Shadow.png"
+            }
+          ],
+          "slug": "rts-humans-worker"
+        }
+      ]
+    },
+    {
+      "slug": "true-heroes-iii",
+      "name": "True Heroes III",
+      "characters": [
+        {
+          "name": "Fighter",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_Attack.png",
+          "attackEffect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_Attack_Effect.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_Die.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_Jump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Shadows/Figther_Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Shadows/Figther_walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Shadows/Figther_Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Shadows/Figther_Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Shadows/Figther_Die_Shadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Shadows/Figther_Jump_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "figther-idle-special",
+              "name": "Figther Idle Special",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Figther_Idle_Special.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/General_Animations/Shadows/Figther_Idle_Special_Shadow.png"
+            },
+            {
+              "key": "figther-cataclysm",
+              "name": "Figther Cataclysm",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Cataclysm/Figther_Cataclysm.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Cataclysm/Cataclysm_Effect.png"
+            },
+            {
+              "key": "figther-swirl",
+              "name": "Figther Swirl",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Swirl/Figther_Swirl.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Swirl/Figther_Swirl_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Swirl/_Shadows/Figther_Swirl_Shadow.png"
+            },
+            {
+              "key": "figther-taunt",
+              "name": "Figther Taunt",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Taunt/Figther_Taunt.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Taunt/_Shadows/Figther_Taunt_Shadow.png"
+            },
+            {
+              "key": "figther-tempest",
+              "name": "Figther Tempest",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Tempest/Figther_Tempest.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Tempest/Figther_Tempest_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Tempest/_Shadows/Figther_Tempest_Shadow.png"
+            },
+            {
+              "key": "figther-uppercut",
+              "name": "Figther Uppercut",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Uppercut/Figther_Uppercut.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Uppercut/Figther_Uppercut_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Fighter/Special_Animations/Uppercut/_Shadows/Figther_Uppercut_Shadow.png"
+            }
+          ],
+          "slug": "true-heroes-iii-fighter"
+        },
+        {
+          "name": "Ranger",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_SingleShot_Orthogonal.png",
+          "attackVerb": "shoot",
+          "attackDiagonal": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_SingleShot_Diagonal.png",
+          "attackProjectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Single_Arrow_Projectile.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_Die.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_Jump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_SingleShot_Orthogonal_Shadow.png",
+            "attackDiagonal": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_SingleShot_Diagonal_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_Die_Shadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_Jump_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "ranger-idle-special",
+              "name": "Ranger Idle Special",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/Ranger_Idle_Special.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/General_Animations/_Shadows/Ranger_Idle_Special_Shadow.png"
+            },
+            {
+              "key": "ranger-double-melee-attack",
+              "name": "Ranger Double Melee Attack",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Melee_Attack/Ranger_Double_Melee_Attack.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Melee_Attack/Double_Melee_Attack_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Melee_Attack/_Shadows/Ranger_Double_Melee_Attack_Shadow.png"
+            },
+            {
+              "key": "ranger-double-shot-diagonal",
+              "name": "Ranger Double Shot Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Shot/Ranger_DoubleShot_Diagonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Shot/Double_Arrow_Projectile.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Shot/_Shadows/Ranger_DoubleShot_Diagonal_Shadow.png"
+            },
+            {
+              "key": "ranger-double-shot-orthogonal",
+              "name": "Ranger Double Shot Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Shot/Ranger_DoubleShot_Orthogonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Shot/Double_Arrow_Projectile.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Double_Shot/_Shadows/Ranger_DoubleShot_Orthogonal_Shadow.png"
+            },
+            {
+              "key": "ranger-single-melee-attack",
+              "name": "Ranger Single Melee Attack",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Single_Melee_Attack/Ranger_Single_Melee_Attack.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Single_Melee_Attack/Single_Melee_Attack_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Single_Melee_Attack/_Shadows/Ranger_Single_Melee_Attack_Shadow.png"
+            },
+            {
+              "key": "throwing-knife-diagonal",
+              "name": "Throwing Knife Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Throwing_Knife/Throwing_Knife_Diagonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Throwing_Knife/Knife_Projectile_Diagonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Throwing_Knife/_Shadows/Throwing_Knife_Diagonal_Shadow.png"
+            },
+            {
+              "key": "throwing-knife-orthogonal",
+              "name": "Throwing Knife Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Throwing_Knife/Throwing_Knife_Orthogonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Throwing_Knife/Knife_Projectile_Diagonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Throwing_Knife/_Shadows/Throwing_Knife_Orthogonal_Shadow.png"
+            },
+            {
+              "key": "ranger-triple-shot",
+              "name": "Ranger Triple Shot",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Triple_Shot/Ranger_TripleShot.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Triple_Shot/Single_Arrow_Projectile.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Ranger/Special_Animations/Triple_Shot/_Shadows/Ranger_TripleShot_Shadow.png"
+            }
+          ],
+          "slug": "true-heroes-iii-ranger"
+        },
+        {
+          "name": "Wizard",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Attack.png",
+          "attackEffect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Attack_Effect.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Die.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Jump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/_Shadows/Wizard_Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/_Shadows/Wizard_Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/_Shadows/Wizard_Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/_Shadows/Wizard_Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/_Shadows/Wizard_Die_Shadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/_Shadows/Wizard_Jump_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "wizard-idle-special",
+              "name": "Wizard Idle Special",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/Wizard_Idle_Special.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/General_Animations/_Shadows/Wizard_Idle_Special_Shadow.png"
+            },
+            {
+              "key": "fire-familiar-attack",
+              "name": "Fire Familiar Attack",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Fire_Familiar_Attack.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Fire_Familiar_Attack_Effect.png"
+            },
+            {
+              "key": "fire-familiar-disperse-die",
+              "name": "Fire Familiar Disperse&Die",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Fire_Familiar_Disperse&Die.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Fire_Familiar_Attack_Effect.png"
+            },
+            {
+              "key": "fire-familiar-fly-idle",
+              "name": "Fire Familiar Fly&Idle",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Fire_Familiar_Fly&Idle.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Fire_Familiar_Attack_Effect.png"
+            },
+            {
+              "key": "wizard-summon-fire-familiar",
+              "name": "Wizard Summon Fire Familiar",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Wizard_Summon_Fire_Familiar.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Fire_Familiar_Attack_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Familiar/Wizard_Summon_Fire_Familiar_Shadow.png"
+            },
+            {
+              "key": "wizard-fire-torrent",
+              "name": "Wizard Fire Torrent",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Torrent/Wizard_Fire_Torrent.png",
+              "impact": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Torrent/Fire_Torrent_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fire_Torrent/Wizard_Fire_Torrent_Shadow.png"
+            },
+            {
+              "key": "wizard-fireball-diagonal",
+              "name": "Wizard Fireball Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Wizard_Fireball_Diagonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Fireball_Projectile.png",
+              "impact": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Explossion_Full_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Wizard_Fireball_Diagonal_Shadow.png"
+            },
+            {
+              "key": "wizard-fireball-orthogonal",
+              "name": "Wizard Fireball Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Wizard_Fireball_Orthogonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Fireball_Projectile.png",
+              "impact": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Explossion_Full_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Fireball/Wizard_Fireball_Orthogonal_Shadow.png"
+            },
+            {
+              "key": "wizard-teleport-end-diagonal",
+              "name": "Wizard Teleport End Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_End_Diagonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_End_Shadow.png"
+            },
+            {
+              "key": "wizard-teleport-end-orthogonal",
+              "name": "Wizard Teleport End Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_End_Orthogonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_End_Shadow.png"
+            },
+            {
+              "key": "wizard-teleport-start-diagonal",
+              "name": "Wizard Teleport Start Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_Start_Diagonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_Start_Shadow.png"
+            },
+            {
+              "key": "wizard-teleport-start-orthogonal",
+              "name": "Wizard Teleport Start Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_Start_Orthogonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_III_v1.1/Minifantasy_True_Heroes_III_Assets/Wizard/Special_Animations/Teleport/Wizard_Teleport_Start_Shadow.png"
+            }
+          ],
+          "slug": "true-heroes-iii-wizard"
+        }
+      ]
+    },
+    {
+      "slug": "true-heroes-ii",
+      "name": "True Heroes II",
+      "characters": [
+        {
+          "name": "Bard",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardIdle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardWalk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardAttack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardDmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardDie.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardJump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardIdleShadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardWalkShadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardAttackShadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardDmgShadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardDieShadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardJumpShadow.png"
+          },
+          "extras": [
+            {
+              "key": "bard-idle-end",
+              "name": "Bard Idle End",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardIdleEnd.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardIdleEndShadow.png"
+            },
+            {
+              "key": "bard-idle-start",
+              "name": "Bard Idle Start",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/BardIdleStart.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/General_Animations/Shadows/BardIdleStartShadow.png"
+            },
+            {
+              "key": "bard-apotheosis",
+              "name": "Bard Apotheosis",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Apotheosis/BardApotheosis.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Apotheosis/ApotheosisEffect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Apotheosis/Shadows/BardApotheosisShadow.png"
+            },
+            {
+              "key": "bard-dissonant-chord-diagonal",
+              "name": "Bard Dissonant Chord Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Dissonant_Chord/BardDissonantChordDiagonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Dissonant_Chord/DissonantChordProjectile.png"
+            },
+            {
+              "key": "bard-dissonant-chord-orthogonal",
+              "name": "Bard Dissonant Chord Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Dissonant_Chord/BardDissonantChordOrthogonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Dissonant_Chord/DissonantChordProjectile.png"
+            },
+            {
+              "key": "ballad-song",
+              "name": "Ballad Song",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Songs/BalladSong.png"
+            },
+            {
+              "key": "ballad-song-base",
+              "name": "Ballad Song Base",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Songs/BalladSongBase.png"
+            },
+            {
+              "key": "enhamcement",
+              "name": "Enhamcement",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Songs/Enhancement/Enhamcement.png"
+            },
+            {
+              "key": "enhancement-song",
+              "name": "Enhancement Song",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Songs/EnhancementSong.png"
+            },
+            {
+              "key": "enhancement-song-base",
+              "name": "Enhancement Song Base",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Songs/EnhancementSongBase.png"
+            },
+            {
+              "key": "vicious-mockery-song",
+              "name": "Vicious Mockery Song",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Bard/Special_Animations/Songs/ViciousMockerySong.png"
+            }
+          ],
+          "slug": "true-heroes-ii-bard"
+        },
+        {
+          "name": "Cleric",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericIdle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericWalk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericAttack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericDmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericDie.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericJump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericIdleShadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericWalkShadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericAttackShadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericDmgShadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericDieShadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericJumpShadow.png"
+          },
+          "extras": [
+            {
+              "key": "cleric-idle-end",
+              "name": "Cleric Idle End",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericIdleEnd.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericIdleEndShadow.png"
+            },
+            {
+              "key": "cleric-idle-start",
+              "name": "Cleric Idle Start",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/ClericIdleStart.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/General_Animations/Shadows/ClericIdleStartShadow.png"
+            },
+            {
+              "key": "cleric-divine-fire-diagonal",
+              "name": "Cleric Divine Fire Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/Special_Animations/Divine%20Fire/ClericDivineFireDiagonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/Special_Animations/Divine%20Fire/DivineFireProjectile.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/Special_Animations/Divine%20Fire/Shadows/ClericDivineFireDiagonalShadow.png"
+            },
+            {
+              "key": "cleric-divine-fire-orthogonal",
+              "name": "Cleric Divine Fire Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/Special_Animations/Divine%20Fire/ClericDivineFireOrthogonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/Special_Animations/Divine%20Fire/DivineFireProjectile.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Cleric/Special_Animations/Divine%20Fire/Shadows/ClericDivineFireOrthogonalShadow.png"
+            }
+          ],
+          "slug": "true-heroes-ii-cleric"
+        },
+        {
+          "name": "Paladin",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinIdle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinWalk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinAttack.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinDmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinDie.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinJump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinIdleShadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinWalkShadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinAttackShadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinDmgShadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinDieShadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinJumpShadow.png"
+          },
+          "extras": [
+            {
+              "key": "paladin-idle-end",
+              "name": "Paladin Idle End",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinIdleEnd.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinIdleEndShadow.png"
+            },
+            {
+              "key": "paladin-idle-start",
+              "name": "Paladin Idle Start",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/PaladinIdleStart.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/General_Animations/_Shadows/PaladinIdleStartShadow.png"
+            },
+            {
+              "key": "paladin-holy-hammer-diagonal",
+              "name": "Paladin Holy Hammer Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Holy_Hammer/PaladinHolyHammerDiagonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Holy_Hammer/HolyHammerProjectileDiagonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Holy_Hammer/Shadows/PaladinHolyHammerDiagonalShadow.png"
+            },
+            {
+              "key": "paladin-holy-hammer-orthogonal",
+              "name": "Paladin Holy Hammer Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Holy_Hammer/PaladinHolyHammerOrthogonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Holy_Hammer/HolyHammerProjectileDiagonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Holy_Hammer/Shadows/PaladinHolyHammerOrthogonalShadow.png"
+            },
+            {
+              "key": "paladin-shield-bash",
+              "name": "Paladin Shield Bash",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Shield_Bash/PaladinShieldBash.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Shield_Bash/ShieldBashEffect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_II_v1.0/Minifantasy_True_Heroes_II_Assets/Paladin/Special_Animations/Shield_Bash/Shadows/PaladinShieldBashShadow.png"
+            }
+          ],
+          "slug": "true-heroes-ii-paladin"
+        }
+      ]
+    },
+    {
+      "slug": "true-heroes-iv",
+      "name": "True Heroes IV",
+      "characters": [
+        {
+          "name": "Blood Mage",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/Attack.png",
+          "attackEffect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/Attack_Effect.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/Die.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/Jump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/_Shadows/Die_Shadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/General_Animations/_Shadows/Jump_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "blood-shards-diagonal",
+              "name": "Blood Shards Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/Blood_Shards_Diagonal.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/Blood_Shards_Diagonal_Effect.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/Shard_Projectiles.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/_Shadows/Blood_Shards_Diagonal_Shadow.png"
+            },
+            {
+              "key": "blood-shards-orthogonal",
+              "name": "Blood Shards Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/Blood_Shards_Orthogonal.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/Blood_Shards_Diagonal_Effect.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/Shard_Projectiles.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Shard/_Shadows/Blood_Shards_Orthogonal_Shadow.png"
+            },
+            {
+              "key": "blood-slam",
+              "name": "Blood Slam",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Slam/Blood_Slam.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Slam/Blood_Slam_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Slam/_Shadows/Blood_Slam_Shadow.png"
+            },
+            {
+              "key": "blood-spikes",
+              "name": "Blood Spikes",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Spikes/Blood_Spikes.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Spikes/Blood_Spikes_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Blood_Spikes/_Shadows/Blood_Spikes_Shadow.png"
+            },
+            {
+              "key": "extract-power",
+              "name": "Extract Power",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Extract_Power/Extract_Power.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Extract_Power/Extract_Power_Shadow.png"
+            },
+            {
+              "key": "move",
+              "name": "Move",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Summon_Blood_Elemental/Blood_Elemental/Move.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Summon_Blood_Elemental/Blood_Elemental/Attack_Effect.png"
+            },
+            {
+              "key": "summon-blood-elemental",
+              "name": "Summon Blood Elemental",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Summon_Blood_Elemental/Summon_Blood_Elemental.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Summon_Blood_Elemental/_Shadows/Summon_Blood_Elemental_Shadow.png"
+            },
+            {
+              "key": "consume-blood",
+              "name": "Consume Blood",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Vampirize/Consume_Blood.png",
+              "impact": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Vampirize/Drain_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Vampirize/_Shadows/Consume_Blood_Shadow.png"
+            },
+            {
+              "key": "extract-blood",
+              "name": "Extract Blood",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Vampirize/Extract_Blood.png",
+              "impact": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Vampirize/Drain_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Blood_Mage/Special_Animations/Vampirize/_Shadows/Extract_Blood_Shadow.png"
+            }
+          ],
+          "slug": "true-heroes-iv-blood-mage"
+        },
+        {
+          "name": "Ninja Assassin",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/Attack.png",
+          "attackEffect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/Attack_Effect.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/Die.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/Jump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/_Shadows/Attack_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/_Shadows/Die_Shadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/General_Animations/_Shadows/Jump_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "deadly-dash-end",
+              "name": "Deadly Dash End",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Deadly_Dash/Deadly_Dash_End.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Deadly_Dash/_Shadows/Deadly_Dash_End_Shadow.png"
+            },
+            {
+              "key": "deadly-dash-start",
+              "name": "Deadly Dash Start",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Deadly_Dash/Deadly_Dash_Start.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Deadly_Dash/_Shadows/Deadly_Dash_Start_Shadow.png"
+            },
+            {
+              "key": "sharpen",
+              "name": "Sharpen",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Sharpen/Sharpen.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Sharpen/_Shadow/Sharpen_Shadow.png"
+            },
+            {
+              "key": "smoke-bomb-appear",
+              "name": "Smoke Bomb Appear",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Smoke_Bomb/Smoke_Bomb_Appear.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Smoke_Bomb/_Shadow/Smoke_Bomb_Appear_Shadow.png"
+            },
+            {
+              "key": "smoke-bomb-disappear",
+              "name": "Smoke Bomb Disappear",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Smoke_Bomb/Smoke_Bomb_Disappear.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Smoke_Bomb/_Shadow/Smoke_Bomb_Disappear_Shadow.png"
+            },
+            {
+              "key": "thousand-blades-end",
+              "name": "Thousand Blades End",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Thousand_Blades/Thousand_Blades_End.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Thousand_Blades/Thousand_Blades_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Thousand_Blades/_Shadows/Thousand_Blades_End_Shadow.png"
+            },
+            {
+              "key": "thousand-blades-start",
+              "name": "Thousand Blades Start",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Thousand_Blades/Thousand_Blades_Start.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Thousand_Blades/Thousand_Blades_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Ninja_Assassin/Special_Animations/Thousand_Blades/_Shadows/Thousand_Blades_Start_Shadow.png"
+            }
+          ],
+          "slug": "true-heroes-iv-ninja-assassin"
+        },
+        {
+          "name": "Tech-Augmented Gunslinger",
+          "idle": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Idle.png",
+          "walk": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Walk.png",
+          "attack": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Shot_Orthogonal.png",
+          "attackVerb": "shoot",
+          "attackDiagonal": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Shot_Diagonal.png",
+          "attackProjectile": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Projectile_Impact.png",
+          "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Dmg.png",
+          "die": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Die.png",
+          "jump": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/Jump.png",
+          "shadows": {
+            "idle": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/_Shadows/Idle_Shadow.png",
+            "walk": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/_Shadows/Walk_Shadow.png",
+            "attack": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/_Shadows/Shot_Orthogonal_Shadow.png",
+            "attackDiagonal": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/_Shadows/Shot_Diagonal_Shadow.png",
+            "dmg": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/_Shadows/Dmg_Shadow.png",
+            "die": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/_Shadows/Die_Shadow.png",
+            "jump": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/General_Animations/_Shadows/Jump_Shadow.png"
+          },
+          "extras": [
+            {
+              "key": "ds-diagonal",
+              "name": "DS Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Desert_Storm/DS_Diagonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Desert_Storm/_Shadows/DS_Diagonal_Shadow.png"
+            },
+            {
+              "key": "ds-orthogonal",
+              "name": "DS Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Desert_Storm/DS_Orthogonal.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Desert_Storm/_Shadows/DS_Orthogonal_Shadow.png"
+            },
+            {
+              "key": "fth-diagonal",
+              "name": "FTH Diagonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Fan_The_Hammer/FTH_Diagonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Fan_The_Hammer/FTH_Projectile_Impact.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Fan_The_Hammer/_Shadows/FTH_Diagonal_Shadow.png"
+            },
+            {
+              "key": "fth-orthogonal",
+              "name": "FTH Orthogonal",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Fan_The_Hammer/FTH_Orthogonal.png",
+              "projectile": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Fan_The_Hammer/FTH_Projectile_Impact.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Fan_The_Hammer/_Shadows/FTH_Orthogonal_Shadow.png"
+            },
+            {
+              "key": "reload",
+              "name": "Reload",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Reload/Reload.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Reload/_Shadows/Reload_Shadow.png"
+            },
+            {
+              "key": "whip-attack",
+              "name": "Whip Attack",
+              "url": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Whip_Attack/Whip_Attack.png",
+              "effect": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Whip_Attack/Whip_Attack_Effect.png",
+              "shadow": "/assets/minifantasy/Minifantasy_True_Heroes_IV_v1.1/Minifantasy_True_Heroes_IV_Assets/Tech-Augmented_Gunslinger/Special_Animations/Whip_Attack/_Shadows/Whip_Attack_Shadow.png"
+            }
+          ],
+          "slug": "true-heroes-iv-tech-augmented-gunslinger"
+        }
+      ]
+    }
+  ]
+}

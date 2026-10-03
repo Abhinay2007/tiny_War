@@ -1,0 +1,10 @@
+# cohere2_moe is a very new architecture — install transformers from git until it lands
+# in a tagged release. If a release >= the one that adds cohere2_moe exists, pin it instead.
+git+https://github.com/huggingface/transformers.git
+accelerate
+bitsandbytes
+sentencepiece
+# Match the main app's Gradio so the gradio_client (2.5.0) contract stays identical.
+gradio==6.15.2
+spaces
+torch

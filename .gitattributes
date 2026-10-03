@@ -1,0 +1,51 @@
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.arrow filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.bz2 filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+*.ftz filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
+*.lfs.* filter=lfs diff=lfs merge=lfs -text
+*.mlmodel filter=lfs diff=lfs merge=lfs -text
+*.model filter=lfs diff=lfs merge=lfs -text
+*.msgpack filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.ot filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.pb filter=lfs diff=lfs merge=lfs -text
+*.pickle filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+saved_model/**/* filter=lfs diff=lfs merge=lfs -text
+*.tar.* filter=lfs diff=lfs merge=lfs -text
+*.tar filter=lfs diff=lfs merge=lfs -text
+*.tflite filter=lfs diff=lfs merge=lfs -text
+*.tgz filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.xz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.zst filter=lfs diff=lfs merge=lfs -text
+*tfevents* filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Medieval_City_v1.1/**/*.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Mountain_Stronghold_v1.0/**/*.png filter=lfs diff=lfs merge=lfs -text
+# New asset packs (binary → LFS, required by the HF hub Xet check). Entirely-new packs: glob the pack.
+web/assets/minifantasy/Minifantasy_Lost_Jungle_v1.0/**/*.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Crypt_Of_The_Forgotten_v1.0/**/*.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Dwarven_Workshop_v1.0/**/*.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Sewers_v1.0/**/*.png filter=lfs diff=lfs merge=lfs -text
+# New shadow sheets added to EXISTING packs — exact paths so their already-tracked regular-git PNGs stay regular.
+web/assets/minifantasy/Minifantasy_Temple_Of_The_Snake_God_v1.0_Commercial_Version/Temple_Of_The_Snake_God/Props/Prop_Shadows.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Temple_Of_The_Snake_God_v1.0_Commercial_Version/Temple_Of_The_Snake_God/Tileset/Tileset_Shadows.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Orc_Kingdom_v1.0/Minifantasy_Orc_Kingdom_Assets/Props/Prop_Shadows.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Orc_Kingdom_v1.0/Minifantasy_Orc_Kingdom_Assets/Tileset/Tile_Shadows.png filter=lfs diff=lfs merge=lfs -text
+web/assets/minifantasy/Minifantasy_Necropolis_v1.0/Minifantasy_Necropolis_Assets/Tileset/Buildings/TileasetAndPremadeShadows.png filter=lfs diff=lfs merge=lfs -text
+
+# Generated audio themes (ACE-Step) — binary, required LFS by the HF hub Xet check.
+*.mp3 filter=lfs diff=lfs merge=lfs -text

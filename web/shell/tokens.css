@@ -1,0 +1,21 @@
+:root {
+  --paper:     #f3ebdc;
+  --paper-2:   #ece2cc;
+  --paper-3:   #e2d6ba;
+  --card:      #fbf6ea;
+
+  --ink:       #141821;
+  --ink-2:     #2a2f3a;
+  --ink-muted: #6d6a5f;
+  --ink-faint: #8a8574;
+
+  --transmit:  #d8271a;
+  --lime:      #b8d64a;
+  --amber:     #e8a72a;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans:    'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  --shadow-card: 4px 4px 0 var(--ink);
+}

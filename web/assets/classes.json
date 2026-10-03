@@ -1,0 +1,359 @@
+{
+  "classes": {
+    "Warrior": {
+      "sprite": "true-heroes-iii-fighter",
+      "bar": [],
+      "attackAnim": "figther-cataclysm",
+      "attackEffect": "none",
+      "attackType": "melee",
+      "projectile": "none"
+    },
+    "Ranger": {
+      "sprite": "true-heroes-iii-ranger",
+      "bar": [],
+      "attackType": "ranged",
+      "attackAnim": "attack",
+      "attackEffects": [],
+      "projectile": "auto"
+    },
+    "Monk": {
+      "sprite": "true-heroes-ii-cleric",
+      "bar": [],
+      "attackAnim": "attack"
+    },
+    "Necromancer": {
+      "sprite": "true-heroes-iv-blood-mage",
+      "bar": [],
+      "attackAnim": "attack",
+      "attackType": "melee"
+    },
+    "Mesmer": {
+      "sprite": "true-heroes-ii-bard",
+      "bar": [],
+      "attackType": "ranged",
+      "attackAnim": "jump"
+    },
+    "Elementalist": {
+      "sprite": "true-heroes-iii-wizard",
+      "bar": [],
+      "attackType": "ranged",
+      "attackAnim": "jump"
+    },
+    "Assassin": {
+      "sprite": "true-heroes-iv-ninja-assassin",
+      "bar": [],
+      "attackAnim": "thousand-blades-start"
+    },
+    "Ritualist": {
+      "sprite": "true-heroes-iv-tech-augmented-gunslinger",
+      "bar": [],
+      "attackAnim": "attack",
+      "attackType": "ranged"
+    },
+    "Paragon": {
+      "sprite": "true-heroes-ii-paladin",
+      "bar": []
+    },
+    "Dervish": {
+      "sprite": "dark-brotherhood-devoted-blade",
+      "bar": []
+    }
+  },
+  "skills": {
+    "1": {
+      "effects": [
+        "auto",
+        "special-apotheosis"
+      ]
+    },
+    "101": {
+      "anim": "blood-spikes",
+      "effects": [
+        "special-blood-spikes"
+      ]
+    },
+    "106": {
+      "anim": "blood-shards-diagonal",
+      "effects": [
+        "flail-sickness"
+      ]
+    },
+    "109": {
+      "anim": "extract-blood",
+      "effects": [
+        "special-drain"
+      ]
+    },
+    "115": {
+      "anim": "consume-blood",
+      "effects": [
+        "special-drain"
+      ]
+    },
+    "118": {
+      "anim": "blood-shards-orthogonal",
+      "effects": [
+        "special-blood-shards-orthogonal"
+      ]
+    },
+    "121": {
+      "anim": "extract-power",
+      "effects": [
+        "special-drain"
+      ]
+    },
+    "135": {
+      "anim": "extract-power",
+      "effects": [
+        "special-drain"
+      ]
+    },
+    "150": {
+      "anim": "blood-slam",
+      "effects": [
+        "special-blood-slam"
+      ]
+    },
+    "153": {
+      "anim": "extract-blood",
+      "effects": [
+        "special-drain"
+      ]
+    },
+    "240": {
+      "anim": "cleric-divine-fire-orthogonal",
+      "effects": [
+        "special-divine-fire-projectile",
+        "special-divine-fire-impact"
+      ]
+    },
+    "245": {
+      "effects": [
+        "auto",
+        "special-dome-base-dictum",
+        "special-dome-dictum"
+      ]
+    },
+    "252": {
+      "anim": "cleric-divine-fire-diagonal",
+      "effects": [
+        "special-divine-fire-impact"
+      ]
+    },
+    "281": {
+      "anim": "cleric-idle-start",
+      "effects": [
+        "special-healing-words-pray"
+      ]
+    },
+    "282": {
+      "anim": "cleric-idle-start",
+      "effects": [
+        "special-healing-words-pray"
+      ]
+    },
+    "283": {
+      "anim": "cleric-idle-start",
+      "effects": [
+        "special-healing-words-pray"
+      ]
+    },
+    "307": {
+      "effects": [
+        "auto",
+        "special-spirit-guardian-pray"
+      ]
+    },
+    "312": {
+      "anim": "cleric-divine-fire-orthogonal",
+      "effects": [
+        "special-divine-fire-impact"
+      ]
+    },
+    "331": {
+      "effects": [
+        "auto",
+        "flail-stun",
+        "special-single-melee-attack",
+        "special-shard-impact"
+      ],
+      "anim": "figther-cataclysm"
+    },
+    "332": {
+      "effects": [
+        "auto",
+        "special-shield-bash",
+        "flail-sleep"
+      ]
+    },
+    "348": {
+      "anim": "figther-idle-special",
+      "effects": [
+        "auto",
+        "special-dissonant-chord-impact"
+      ]
+    },
+    "352": {
+      "anim": "figther-tempest",
+      "effects": [
+        "auto",
+        "slashm-bleeding",
+        "shot-poison"
+      ]
+    },
+    "372": {
+      "anim": "figther-swirl",
+      "effects": [
+        "special-swirl"
+      ]
+    },
+    "382": {
+      "anim": "figther-uppercut",
+      "effect": "slashl-bleeding",
+      "effects": [
+        "slashl-bleeding",
+        "slashm-fire",
+        "special-blood-slam",
+        "weapon-sword-fire"
+      ]
+    },
+    "384": {
+      "effects": [
+        "lash-bleeding",
+        "slashm-fire"
+      ],
+      "anim": "jump"
+    },
+    "385": {
+      "anim": "figther-cataclysm",
+      "effects": [
+        "flail-fire",
+        "flail-ice",
+        "slashl-petrification"
+      ]
+    },
+    "391": {
+      "anim": "ranger-double-shot-orthogonal",
+      "effects": [
+        "shot-bleeding",
+        "weapon-bow-bleeding"
+      ]
+    },
+    "393": {
+      "anim": "ranger-double-shot-orthogonal",
+      "effects": [
+        "shot-ice",
+        "weapon-bow-ice"
+      ]
+    },
+    "409": {
+      "anim": "ranger-double-shot-orthogonal",
+      "effects": [
+        "shot-shock",
+        "weapon-bow-shock"
+      ]
+    },
+    "426": {
+      "anim": "ranger-triple-shot",
+      "effects": [
+        "shot-shock",
+        "weapon-bow-shock"
+      ]
+    },
+    "435": {
+      "anim": "ranger-double-shot-orthogonal",
+      "effects": [
+        "flail-poison",
+        "lash-poison",
+        "weapon-viper-scimitar",
+        "flail-stun"
+      ]
+    },
+    "446": {
+      "anim": "ranger-idle-special",
+      "effects": [
+        "special-healing-words-pray"
+      ]
+    },
+    "775": {
+      "anim": "thousand-blades-end",
+      "effects": [
+        "special-thousand-blades"
+      ]
+    },
+    "780": {
+      "anim": "thousand-blades-start",
+      "effects": [
+        "weapon-dagger-bleeding",
+        "slashs-bleeding"
+      ]
+    },
+    "782": {
+      "anim": "thousand-blades-start",
+      "effects": [
+        "weapon-dagger-bleeding",
+        "slashs-bleeding"
+      ]
+    },
+    "784": {
+      "anim": "thousand-blades-start",
+      "effects": [
+        "weapon-dagger-poison",
+        "slashs-poison"
+      ]
+    },
+    "858": {
+      "anim": "thousand-blades-start",
+      "effects": [
+        "weapon-dagger-petrification",
+        "slashs-petrification"
+      ]
+    },
+    "952": {
+      "anim": "deadly-dash-start",
+      "effects": [
+        "special-drain"
+      ]
+    },
+    "988": {
+      "anim": "thousand-blades-end",
+      "effects": [
+        "weapon-dagger-shock",
+        "slashs-shock"
+      ]
+    },
+    "1024": {
+      "anim": "thousand-blades-start",
+      "effects": [
+        "weapon-dagger-ice",
+        "slashs-ice"
+      ]
+    },
+    "1114": {
+      "effects": [
+        "auto",
+        "special-holy-hammer-impact"
+      ]
+    },
+    "1466": {
+      "anim": "ranger-double-shot-orthogonal",
+      "effects": [
+        "shot-fire",
+        "weapon-bow-fire"
+      ]
+    },
+    "1470": {
+      "anim": "ranger-triple-shot",
+      "effects": [
+        "shot-bleeding",
+        "weapon-bow-bleeding"
+      ]
+    },
+    "1727": {
+      "anim": "ranger-idle-special",
+      "effects": [
+        "special-swirl"
+      ]
+    }
+  }
+}

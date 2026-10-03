@@ -1,0 +1,483 @@
+/* Persona panel chrome — parchment palette, self-contained (scoped on .persona-view)
+ * so it matches the app whether the OS is light or dark. Mirrors the spriteScene.css
+ * approach. */
+.persona-view {
+  --p-ink: #141821; --p-muted: #6d6a5f; --p-paper: #f3ebdc; --p-paper-2: #ece2cc;
+  --p-card: #fbf6ea; --p-transmit: #d8271a;
+  --p-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --p-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  display: flex; height: 100%; width: 100%; box-sizing: border-box;
+  color: var(--p-ink); font-family: var(--p-sans);
+}
+.persona-view * { box-sizing: border-box; }
+
+.persona-controls {
+  width: 280px; flex-shrink: 0; border-right: 2px solid var(--p-ink);
+  background: var(--p-paper-2); overflow-y: auto; padding: 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.persona-title {
+  margin: 0 0 6px !important; font-family: var(--p-mono) !important; font-size: 11px !important;
+  font-weight: 500 !important; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--p-transmit) !important; line-height: 1.4 !important;
+}
+.persona-label {
+  font-family: var(--p-mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--p-muted); margin-top: 6px;
+}
+.persona-input {
+  font-family: var(--p-sans) !important; font-size: 14px !important; color: var(--p-ink) !important;
+  background: var(--p-card) !important; border: 1.5px solid var(--p-ink) !important;
+  border-radius: 0 !important; padding: 7px 9px !important; width: 100%;
+}
+/* ── Class picker — a custom dropdown with an animated idle-pose icon per class.
+   Mirrors a native <select> (.persona-input chrome) but each row shows the
+   character's looping idle sprite beside the name. ──────────────────────────── */
+.persona-classdrop { position: relative; }
+.persona-classdrop-trigger {
+  display: flex !important; align-items: center; gap: 8px; cursor: pointer; text-align: left;
+}
+.persona-classdrop-label { flex: 1; min-width: 0; }
+.persona-classdrop-chev { color: var(--p-muted); font-size: 11px; transition: transform .12s; }
+.persona-classdrop.open .persona-classdrop-chev { transform: rotate(180deg); }
+.persona-class-ico {
+  width: 30px; height: 30px; flex-shrink: 0; display: inline-block; overflow: hidden;
+  background-repeat: no-repeat; background-position: 0 0; image-rendering: pixelated;
+}
+.persona-classdrop-menu {
+  display: none; position: absolute; top: calc(100% + 2px); left: 0; right: 0; z-index: 30;
+  background: var(--p-card); border: 1.5px solid var(--p-ink);
+  box-shadow: 3px 3px 0 var(--p-transmit); max-height: 300px; overflow-y: auto;
+}
+.persona-classdrop.open .persona-classdrop-menu { display: block; }
+.persona-classdrop-opt {
+  display: flex; align-items: center; gap: 8px; width: 100%; cursor: pointer; text-align: left;
+  font-family: var(--p-sans); font-size: 14px; color: var(--p-ink);
+  background: transparent; border: 0; border-bottom: 1px solid var(--p-paper-2); padding: 5px 9px;
+}
+.persona-classdrop-opt:last-child { border-bottom: 0; }
+.persona-classdrop-opt:hover { background: var(--p-paper-2); }
+.persona-classdrop-opt.sel { background: var(--p-ink); color: var(--p-paper); }
+
+.persona-go {
+  margin-top: 10px; font-family: var(--p-mono) !important; font-size: 12px !important;
+  font-weight: 700 !important; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--p-paper) !important; background: var(--p-ink) !important;
+  border: 1.5px solid var(--p-ink) !important; border-radius: 0 !important;
+  padding: 9px 12px !important; cursor: pointer; box-shadow: 2px 2px 0 var(--p-transmit);
+}
+.persona-go:hover { background: var(--p-transmit) !important; }
+.persona-go:disabled { opacity: .55; cursor: default; box-shadow: none; }
+.persona-status {
+  margin-top: 8px; font-family: var(--p-mono); font-size: 10px; letter-spacing: .06em;
+  color: var(--p-muted); min-height: 14px; line-height: 1.5;
+}
+
+.persona-result {
+  flex: 1; min-width: 0; overflow-y: auto; padding: 28px 32px;
+  background: var(--p-paper);
+}
+.persona-name {
+  font-family: 'Fraunces', Georgia, serif; font-weight: 900; font-size: 34px;
+  line-height: 1; letter-spacing: -.02em; color: var(--p-ink);
+}
+.persona-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 16px; }
+.persona-tag {
+  font-family: var(--p-mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--p-ink); background: var(--p-card); border: 1.5px solid var(--p-ink);
+  padding: 3px 8px;
+}
+.persona-about {
+  font-size: 17px; line-height: 1.6; max-width: 60ch; color: var(--p-ink);
+  white-space: pre-wrap;
+}
+/* ── Section headers — like the sidebar: a short ink line, red heading, with the
+   action button anchored right after the title (not at the page edge). ───────── */
+.persona-sec { display: flex; align-items: center; gap: 10px; margin-top: 22px; }
+.persona-sec-title {
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--p-mono); font-size: 10px; font-weight: 500; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--p-transmit) !important; /* beat Gradio's text var */
+}
+.persona-sec-title::before { content: ''; height: 2px; width: 18px; background: var(--p-ink); flex-shrink: 0; }
+.persona-voice-desc {
+  font-family: var(--p-mono); font-size: 12px; line-height: 1.5; color: var(--p-muted);
+  max-width: 60ch; margin-top: 8px; font-style: italic;
+}
+/* Read-only when the provider isn't Qwen3-TTS (the design text isn't used then). */
+.persona-voice-desc.readonly { opacity: .6; cursor: default; }
+.persona-voice-desc.readonly:hover, .persona-voice-desc.readonly:focus { background: transparent; box-shadow: none; }
+/* Per-hero named-voice picker (Kokoro/Kitten/Web Speech). */
+.persona-voice-pick-row { margin-top: 12px; max-width: 320px; }
+.persona-voice-pick-row .persona-label { margin-top: 0; }
+.persona-voice-pick { margin-top: 4px; }
+
+/* Portrait — an editable appearance prompt + the painted image. */
+.persona-appearance {
+  font-family: var(--p-mono); font-size: 12px; line-height: 1.5; color: var(--p-muted);
+  max-width: 60ch; margin-top: 8px; font-style: italic;
+}
+.persona-portrait-wrap { margin-top: 12px; }
+.persona-portrait-wrap:not(.has-img) { display: none; }
+.persona-portrait-img {
+  width: 320px; max-width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block;
+  border: 1.5px solid var(--p-ink); box-shadow: 4px 4px 0 var(--p-transmit); background: var(--p-card);
+}
+.persona-quote {
+  margin: 8px 0 0; padding: 4px 0 4px 16px; border-left: 3px solid var(--p-transmit);
+  font-family: 'Fraunces', Georgia, serif; font-size: 21px; font-style: italic;
+  line-height: 1.35; color: var(--p-ink); max-width: 54ch;
+}
+.persona-quote:not(:empty)::before { content: '“'; }
+.persona-quote:not(:empty)::after { content: '”'; }
+
+/* Simple icon button anchored after a section heading. */
+.persona-ico {
+  position: relative; cursor: pointer; flex-shrink: 0; line-height: 1;
+  font-size: 12px !important; color: var(--p-ink) !important; background: var(--p-card) !important;
+  border: 1.5px solid var(--p-ink) !important; border-radius: 0 !important; padding: 3px 9px !important;
+}
+.persona-ico:hover { background: var(--p-paper-2) !important; }
+/* Disabled = up to date (no change to repaint); dim it (but not while busy — that shows a spinner). */
+.persona-ico:disabled:not(.busy) { opacity: .4; cursor: default; }
+.persona-ico:disabled:not(.busy):hover { background: var(--p-card) !important; }
+.persona-ico.busy { cursor: default; }
+/* Working (voice/portrait) → hide the glyph and spin a small ring in its place. */
+.persona-ico.busy { color: transparent !important; }
+.persona-ico.busy::before {
+  content: ''; position: absolute; inset: 0; margin: auto; width: 11px; height: 11px;
+  border: 2px solid var(--p-paper-2); border-top-color: var(--p-transmit); border-radius: 50%;
+  animation: tac-spin .7s linear infinite;
+}
+@keyframes tac-spin { to { transform: rotate(360deg); } }
+/* Badge = "nothing made yet, or the inputs changed — tap to (re)make it." Pulses. */
+.persona-ico.badged::after {
+  content: ''; position: absolute; top: -4px; right: -4px; width: 9px; height: 9px;
+  background: var(--p-transmit); border: 1.5px solid var(--p-card); border-radius: 50%;
+  animation: tac-badge-pulse 1.3s ease-out infinite;
+}
+@keyframes tac-badge-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(216, 39, 26, .6); }
+  70% { box-shadow: 0 0 0 7px rgba(216, 39, 26, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(216, 39, 26, 0); }
+}
+
+/* Click-to-edit fields (name / about / quote / voice) — auto-saved on blur. */
+.persona-edit { cursor: text; border-radius: 0; outline: none; transition: background .12s; }
+.persona-edit:hover { background: color-mix(in srgb, var(--p-card) 60%, transparent); box-shadow: 0 0 0 1px var(--p-paper-2); }
+.persona-edit:focus { background: var(--p-card); box-shadow: 0 0 0 1.5px var(--p-transmit); }
+.persona-edit:empty::before { content: attr(data-ph); color: var(--p-muted); opacity: .6; font-style: italic; }
+
+/* Empty state — shown until a hero is recruited or picked from the barracks. */
+.persona-empty {
+  font-family: var(--p-mono); font-size: 12px; letter-spacing: .04em; color: var(--p-muted);
+  padding: 28px 0; max-width: 50ch;
+}
+
+/* ── Barracks roster (saved heroes) ────────────────────────────────────────── */
+.persona-roster-label { margin-top: 18px; }
+.persona-roster { display: flex; flex-direction: column; gap: 4px; margin-top: 4px; max-height: 230px; overflow-y: auto; }
+.persona-roster-empty { font-family: var(--p-mono); font-size: 10px; color: var(--p-muted); padding: 4px 0; }
+.persona-roster-item { display: flex; align-items: stretch; gap: 4px; }
+.persona-roster-name {
+  flex: 1; text-align: left; cursor: pointer;
+  font-family: var(--p-sans) !important; font-size: 13px !important; color: var(--p-ink) !important;
+  background: var(--p-card) !important; border: 1.5px solid var(--p-ink) !important; border-radius: 0 !important;
+  padding: 7px 9px !important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.persona-roster-name:hover { background: var(--p-paper-2) !important; }
+/* The selected hero is highlighted in the barracks. */
+.persona-roster-item.active .persona-roster-name {
+  background: var(--p-ink) !important; color: var(--p-paper) !important;
+  border-color: var(--p-ink) !important; box-shadow: inset 4px 0 0 var(--p-transmit); font-weight: 700;
+}
+.persona-roster-x {
+  cursor: pointer; flex-shrink: 0; font-size: 11px !important;
+  color: var(--p-transmit) !important; background: var(--p-card) !important;
+  border: 1.5px solid var(--p-transmit) !important; border-radius: 0 !important; padding: 0 8px !important;
+}
+.persona-roster-x:hover { background: var(--p-transmit) !important; }
+
+/* ── Model picker + cache controls ─────────────────────────────────────────── */
+.model-bar { display: flex; flex-direction: column; gap: 4px; padding-bottom: 10px; margin-bottom: 6px; border-bottom: 1px dashed var(--p-ink); }
+.model-select {
+  font-family: var(--p-sans) !important; font-size: 13px !important; color: var(--p-ink) !important;
+  background: var(--p-card) !important; border: 1.5px solid var(--p-ink) !important;
+  border-radius: 0 !important; padding: 6px 8px !important; width: 100%;
+}
+.engine-select { border-color: var(--p-transmit) !important; margin-bottom: 2px; }
+.model-select option:disabled { color: var(--p-muted); }
+.model-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.model-info { font-family: var(--p-mono); font-size: 9px; letter-spacing: .04em; color: var(--p-muted); line-height: 1.4; flex: 1; }
+.model-del {
+  font-family: var(--p-mono) !important; font-size: 9px !important; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--p-transmit) !important; background: var(--p-card) !important; border: 1.5px solid var(--p-transmit) !important;
+  border-radius: 0 !important; padding: 3px 6px !important; cursor: pointer; flex-shrink: 0;
+}
+.model-del:hover { background: var(--p-transmit) !important; color: var(--p-card) !important; }
+.model-del:disabled { opacity: .5; cursor: default; }
+
+/* ── Live stats (tok/s) ────────────────────────────────────────────────────── */
+.persona-stats {
+  font-family: var(--p-mono); font-size: 11px; letter-spacing: .04em; color: var(--p-transmit);
+  min-height: 14px; margin-top: 6px;
+}
+
+/* ── "Thinking" raw stream (see progress as tokens arrive) ──────────────────── */
+.persona-think-wrap { margin-top: 22px; }
+.persona-think-wrap > summary {
+  cursor: pointer; font-family: var(--p-mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--p-muted); list-style: none;
+}
+.persona-think-wrap > summary::-webkit-details-marker { display: none; }
+.persona-think-wrap > summary::before { content: '▸ '; }
+.persona-think-wrap[open] > summary::before { content: '▾ '; }
+.persona-think {
+  margin: 8px 0 0; max-height: 240px; overflow-y: auto; white-space: pre-wrap; word-break: break-word;
+  font-family: var(--p-mono); font-size: 11px; line-height: 1.5; color: var(--p-muted);
+  background: var(--p-paper-2); border: 1px solid var(--p-ink); padding: 8px 10px;
+}
+.persona-copy {
+  margin-top: 8px; font-family: var(--p-mono) !important; font-size: 10px !important; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--p-transmit) !important; background: var(--p-card) !important; border: 1.5px solid var(--p-transmit) !important;
+  border-radius: 0 !important; padding: 5px 9px !important; cursor: pointer;
+}
+.persona-copy:hover { background: var(--p-transmit) !important; color: var(--p-card) !important; }
+
+/* ── TTS / voice controls (war-diary read-aloud) ───────────────────────────── */
+.tts-bar { margin-top: 16px; }
+.tts-auto-row {
+  display: flex; align-items: center; gap: 6px; margin-top: 6px;
+  font-family: var(--p-mono); font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: var(--p-muted); cursor: pointer;
+}
+.tts-auto { accent-color: var(--p-transmit); width: 14px; height: 14px; }
+/* secondary (outline) button for "Read aloud" */
+.persona-go-alt {
+  margin-top: 8px; color: var(--p-ink) !important; background: var(--p-card) !important;
+  box-shadow: 2px 2px 0 var(--p-ink);
+}
+.persona-go-alt:hover { background: var(--p-paper-2) !important; color: var(--p-ink) !important; }
+.tts-status { min-height: 14px; }
+
+/* ── "Text Generation Model" section injected into Gradio's own Settings page ─ */
+/* The model bar's styles use --p-* vars (normally scoped to .persona-view); define
+   them here too so the picker renders correctly inside Gradio's settings modal. */
+.tac-set-section {
+  --p-ink: #141821; --p-muted: #6d6a5f; --p-paper: #f3ebdc; --p-paper-2: #ece2cc;
+  --p-card: #fbf6ea; --p-transmit: #d8271a;
+  --p-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --p-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+}
+.tac-set-section * { box-sizing: border-box; }
+.tac-set-section .model-bar { border-bottom: 0; padding-bottom: 0; }
+/* Gradio's Settings header prints the app URL under the "Settings" title — hide it. */
+.banner-wrap .title .url { display: none !important; }
+.tac-set-intro { font-size: 14px; line-height: 1.5; opacity: .75; margin: 2px 0 14px; }
+
+/* Recommended settings — quality preset picker (High / Medium / Low / Custom). */
+.tac-quality { display: flex; flex-direction: column; gap: 12px; }
+.tac-preset-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.tac-preset-btn {
+  flex: 1 1 120px; display: flex; flex-direction: column; gap: 4px; text-align: left;
+  background: var(--p-card) !important; border: 1.5px solid var(--p-ink) !important; border-radius: 0 !important;
+  padding: 14px 16px !important; cursor: pointer; color: var(--p-ink) !important; transition: background .12s, color .12s;
+  height: auto !important; min-height: 0 !important;
+}
+.tac-preset-btn:hover:not(:disabled) { background: var(--p-paper-2) !important; }
+.tac-preset-btn.active { background: var(--p-ink) !important; color: var(--p-paper) !important; box-shadow: 2px 2px 0 var(--p-transmit); }
+/* A selected button turns light on hover — keep its text dark so it stays readable. */
+.tac-preset-btn.active:hover:not(:disabled) { color: var(--p-ink) !important; }
+.tac-preset-btn:disabled { cursor: default; }
+.tac-preset-name { font-family: var(--p-mono); font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.tac-preset-sub { font-family: var(--p-mono); font-size: 10px; opacity: .7; }
+
+/* Expandable device readout (debug / benchmark). */
+.tac-device { border: 1px dashed var(--p-ink); padding: 8px 10px; }
+.tac-device > summary {
+  cursor: pointer; font-family: var(--p-mono); font-size: 11px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--p-transmit);
+}
+.tac-device-actions { display: flex; flex-direction: column; gap: 6px; margin: 10px 0 4px; }
+.tac-device-rec { align-self: flex-start; margin-top: 0 !important; }
+.tac-device-rec-note { min-height: 0; }
+.tac-device-body { margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
+.tac-device-row { display: flex; gap: 10px; font-family: var(--p-mono); font-size: 11px; line-height: 1.4; }
+.tac-device-k { flex: 0 0 130px; color: var(--p-muted); }
+.tac-device-v { flex: 1; min-width: 0; color: var(--p-ink); word-break: break-word; }
+
+/* Persona-prompt editor (Settings → Persona Prompt). */
+.persona-prompt-bar { display: flex; flex-direction: column; gap: 10px; width: 100%; }
+.persona-prompt-edit {
+  display: block; width: 100%; max-width: none; box-sizing: border-box;
+  font-family: var(--p-mono); font-size: 12px; line-height: 1.55;
+  color: var(--p-ink); background: var(--p-card); border: 1.5px solid var(--p-ink);
+  border-radius: 0; padding: 10px 12px; resize: vertical; min-height: 200px;
+}
+.persona-prompt-edit:focus { outline: none; box-shadow: 0 0 0 1.5px var(--p-transmit); }
+.persona-prompt-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+/* Save sits left, Reset is pushed to the far right so the two are clearly separated. */
+.persona-prompt-save { margin-top: 0 !important; position: relative; }
+.persona-prompt-reset { margin-left: auto; }
+/* Pulsing badge on Save = unsaved edits in the prompt. Reuses the play-button badge. */
+.persona-prompt-save.badged::after {
+  content: ''; position: absolute; top: -5px; right: -5px; width: 10px; height: 10px;
+  background: var(--p-transmit); border: 1.5px solid var(--p-card); border-radius: 50%;
+  animation: tac-badge-pulse 1.3s ease-out infinite;
+}
+
+/* Collapsible control sections (model / voice). Desktop: no toggle, always shown. */
+.ctl-collapse > summary { display: none; }
+
+@media (max-width: 768px) {
+  /* The whole view scrolls as one column (instead of two fighting scroll panes in
+     a fixed-height box), so the story gets real room and the page scrolls. */
+  .persona-view { flex-direction: column; height: 100%; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  /* Mobile: tuck the model/voice bars behind a tap-to-expand summary. */
+  .ctl-collapse > summary {
+    display: block; cursor: pointer; list-style: none; margin-top: 6px;
+    font-family: var(--p-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--p-ink); background: var(--p-card); border: 1.5px solid var(--p-ink); padding: 10px;
+  }
+  .ctl-collapse > summary::-webkit-details-marker { display: none; }
+  .ctl-collapse > summary::after { content: ' ▾'; float: right; color: var(--p-muted); }
+  .ctl-collapse[open] > summary::after { content: ' ▴'; }
+  .persona-label { margin-top: 4px; }
+  .persona-controls {
+    width: 100%; border-right: 0; border-bottom: 2px solid var(--p-ink);
+    overflow: visible; flex-shrink: 0; gap: 6px;
+    padding: 54px 14px 16px; /* top clears the floating ☰ reopen button */
+  }
+  /* The generated content (persona / war story) gets the majority of the screen. */
+  .persona-result { flex: 1 0 auto; min-height: 62vh; padding: 18px 16px; overflow: visible; }
+  .persona-name { font-size: 26px; }
+  .persona-about { font-size: 16px; max-width: none; }
+  .persona-tags { margin: 10px 0 14px; }
+  .persona-think { max-height: 150px; }
+  /* 16px inputs avoid iOS focus-zoom; bigger pads = easier taps. */
+  .persona-input { font-size: 16px !important; padding: 10px !important; }
+  .model-select { font-size: 15px !important; padding: 9px 10px !important; }
+  .persona-go, .persona-go-alt { padding: 12px !important; }
+}
+
+/* ── Game-page "Create a Hero" modal — hosts the shared creator (.persona-view) in a card over the
+ *    dimmed map. Palette vars are re-declared here so the modal chrome (head/foot) matches the
+ *    parchment body even though those vars are normally scoped to .persona-view. */
+.hero-modal-backdrop {
+  position: fixed; inset: 0; z-index: 1100; display: flex; align-items: center; justify-content: center;
+  padding: 20px; background: rgba(8, 11, 16, .62); backdrop-filter: blur(2px);
+}
+.hero-modal {
+  --p-ink: #141821; --p-muted: #6d6a5f; --p-paper: #f3ebdc; --p-paper-2: #ece2cc;
+  --p-card: #fbf6ea; --p-transmit: #d8271a;
+  --p-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* FIXED height so the modal never resizes between Create a Hero ⇄ Hero Details or while text
+   * streams in — the two columns scroll internally instead. */
+  width: min(940px, 96vw); height: min(620px, 90vh); display: flex; flex-direction: column;
+  background: var(--p-paper); color: var(--p-ink); font-family: var(--p-sans);
+  border-radius: 14px; overflow: hidden; box-shadow: 0 24px 70px rgba(0, 0, 0, .55);
+}
+.hero-modal-head {
+  display: flex; align-items: center; justify-content: space-between; flex-shrink: 0;
+  padding: 12px 16px; border-bottom: 1px solid var(--p-paper-2); background: var(--p-card);
+}
+.hero-modal-title { font-weight: 700; font-size: 16px; letter-spacing: .01em; }
+.hero-modal-x {
+  border: 0; background: none; color: var(--p-muted); font-size: 20px; line-height: 1;
+  cursor: pointer; padding: 4px 8px; border-radius: 8px;
+}
+.hero-modal-x:hover { background: var(--p-paper-2); color: var(--p-ink); }
+.hero-modal-body { flex: 1; min-height: 0; overflow: hidden; }
+/* The creator's two-column view fills the fixed body; each column scrolls inside it. */
+.hero-modal-body .persona-view { height: 100%; }
+.hero-modal-foot {
+  display: flex; align-items: center; justify-content: flex-end; gap: 10px; flex-shrink: 0;
+  padding: 12px 16px; border-top: 1px solid var(--p-paper-2); background: var(--p-card);
+}
+.hero-modal-cancel, .hero-modal-save {
+  font-family: var(--p-sans); font-weight: 600; font-size: 14px; cursor: pointer;
+  padding: 9px 16px; border-radius: 9px; border: 1px solid var(--p-paper-2);
+}
+.hero-modal-cancel { background: transparent; color: var(--p-muted); }
+.hero-modal-cancel:hover { color: var(--p-ink); border-color: var(--p-muted); }
+.hero-modal-save { background: var(--p-transmit); color: #fff; border-color: var(--p-transmit); }
+.hero-modal-save:hover { filter: brightness(1.06); }
+.hero-modal-save:disabled { opacity: .45; cursor: not-allowed; filter: none; }
+
+/* The "+ Create hero" card in the Game hero picker. */
+.hero-pick-create {
+  border-style: dashed !important; color: #cfd6df !important;
+}
+.hero-pick-create:hover { border-color: #4a5765 !important; background: rgba(40, 48, 60, .92) !important; }
+.hero-pick-create .hero-pick-plus { font-size: 26px; line-height: 1; color: #aab3c0; }
+
+/* ── Left-column states: recruit controls (A) ⇄ portrait panel (B). The model output is anchored to
+ *    the bottom of the column; the portrait box shows a framed placeholder until it's painted. ── */
+.persona-recruit-box, .persona-portrait-panel { display: flex; flex-direction: column; gap: 8px; }
+.persona-controls > .persona-think-wrap { margin-top: auto; } /* anchor model output to the bottom */
+.persona-back {
+  align-self: flex-start; font-family: var(--p-mono); font-size: 11px; letter-spacing: .06em;
+  color: var(--p-muted); background: none; border: 0; cursor: pointer; padding: 2px 0;
+}
+.persona-back:hover { color: var(--p-ink); }
+/* Portrait box: always a framed square in the panel (placeholder before painting, image after). */
+.persona-portrait-panel .persona-portrait-wrap {
+  display: flex; align-items: center; justify-content: center; margin-top: 4px;
+  width: 100%; aspect-ratio: 1 / 1; background: var(--p-card);
+  border: 1.5px dashed var(--p-muted); box-shadow: 4px 4px 0 var(--p-transmit);
+}
+.persona-portrait-panel .persona-portrait-wrap.has-img { border-style: solid; border-color: var(--p-ink); }
+.persona-portrait-panel .persona-portrait-wrap:not(.has-img)::after {
+  content: 'portrait appears here'; font-family: var(--p-mono); font-size: 10px;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--p-muted);
+}
+.persona-portrait-panel .persona-portrait-img {
+  width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; border: 0; box-shadow: none; display: none;
+}
+.persona-portrait-panel .persona-portrait-wrap.has-img .persona-portrait-img { display: block; }
+
+/* Inline per-action status (e.g. "painting via …", "generating voice via …") beside a section's
+ * create button; the button + note sit together on the right of the heading. */
+/* Action header: the create button with its status note to the RIGHT; the note wraps (never
+ * truncates) so the full model name always shows. */
+.persona-sec-action { display: flex; align-items: center; gap: 8px; flex: 1; min-width: 0; }
+.persona-sec-action > .persona-ico { flex-shrink: 0; }
+/* The note stays BESIDE the button and wraps its own text (tiny font), so it never pushes the
+ * portrait/box below it down even with a full model name. */
+.persona-act-status {
+  flex: 1; min-width: 0;
+  font-family: var(--p-mono); font-size: 8px; letter-spacing: .02em; color: var(--p-muted);
+  white-space: normal; line-height: 1.2;
+}
+/* Always-visible barracks block in the left column. */
+.persona-barracks { display: flex; flex-direction: column; gap: 4px; }
+/* Status + token rate now live inside the debug <details>; give them a little breathing room. */
+.persona-think-wrap > .persona-status, .persona-think-wrap > .persona-stats { margin: 6px 0 0; }
+/* ← Back in the modal footer sits to the LEFT of Cancel / Save & Play. */
+.hero-modal-foot { gap: 10px; }
+.hero-modal-foot .persona-back { margin-right: auto; font-size: 13px; }
+
+/* ── Hero detail page (Game): a dark card shown before spawning — big portrait/idle + about/quote
+ *    and a Select button. ── */
+.hero-detail-backdrop {
+  position: fixed; inset: 0; z-index: 1100; display: flex; align-items: center; justify-content: center;
+  padding: 20px; background: rgba(8, 11, 16, .7); backdrop-filter: blur(2px); font-family: var(--tac-font, system-ui);
+}
+.hero-detail {
+  width: min(380px, 94vw); max-height: 92vh; overflow: auto; display: flex; flex-direction: column;
+  background: #14181f; color: #e8e8e8; border: 1px solid #2a3340; border-radius: 14px; box-shadow: 0 24px 70px rgba(0, 0, 0, .6);
+}
+.hero-detail-portrait {
+  width: 240px; height: 240px; margin: 18px auto 4px; border-radius: 12px;
+  background: #0b0e12 center no-repeat; background-size: cover; border: 1px solid #20262e; box-shadow: 0 4px 18px rgba(0, 0, 0, .4);
+}
+.hero-detail-info { padding: 8px 18px 4px; display: flex; flex-direction: column; gap: 8px; }
+.hero-detail-name { font-size: 22px; font-weight: 700; line-height: 1.1; }
+.hero-detail-class { color: #8a93a0; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; margin-top: -4px; }
+.hero-detail-about { font-size: 14px; line-height: 1.55; color: #c8cdd4; }
+.hero-detail-quote { margin: 2px 0 0; padding: 2px 0 2px 12px; border-left: 3px solid #d8271a; font-style: italic; color: #e8d8a0; font-size: 15px; line-height: 1.4; }
+.hero-detail-foot { display: flex; gap: 10px; justify-content: flex-end; padding: 14px 18px 18px; }
+.hero-detail-back, .hero-detail-select { font: 600 14px var(--tac-font, system-ui); cursor: pointer; padding: 9px 18px; border-radius: 10px; border: 1px solid #2a3340; }
+.hero-detail-back { background: transparent; color: #aab3c0; }
+.hero-detail-back:hover { color: #e8e8e8; border-color: #4a5765; }
+.hero-detail-select { background: #d8271a; color: #fff; border-color: #d8271a; }
+.hero-detail-select:hover { filter: brightness(1.08); }

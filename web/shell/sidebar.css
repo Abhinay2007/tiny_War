@@ -1,0 +1,106 @@
+/* Shared app-shell sidebar — ONE source for both the React app and the Gradio
+ * Space. Pure CSS (framework-neutral); behaviour is in sidebar.js, content in
+ * nav.json. Everything is namespaced `.tac-*` so it never collides with Gradio's
+ * own classes. The collapse/slide is driven by a `tac-collapsed` class that
+ * sidebar.js toggles on <body>.
+ *
+ * Palette + fonts mirror the auto-battler theme (parchment paper-2 like the pixi
+ * stage, ink text, 2px ink borders, Space Grotesk / JetBrains Mono) so the Space
+ * shell matches the app instead of a bespoke dark theme.
+ */
+
+:root {
+  --tac-w: 240px;
+  --tac-bg: #ece2cc;     /* paper-2 — same cream as the pixi stage */
+  --tac-bg-2: #e2d6ba;   /* paper-3 — hover */
+  --tac-paper: #f3ebdc;  /* paper — text on an ink fill */
+  --tac-ink: #141821;    /* ink — text + borders */
+  --tac-muted: #6d6a5f;  /* ink-muted */
+  --tac-accent: #d8271a; /* transmit — accent */
+  --tac-border: #141821;
+  --tac-font: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --tac-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+}
+
+/* The drawer — a fixed slide-in panel (works inside Gradio's flow). */
+.tac-sidebar {
+  position: fixed; top: 0; left: 0; bottom: 0; z-index: 1000;
+  width: var(--tac-w); box-sizing: border-box;
+  background: var(--tac-bg); border-right: 2px solid var(--tac-border);
+  color: var(--tac-ink); font-family: var(--tac-font);
+  display: flex; flex-direction: column;
+  transform: translateX(0); transition: transform .22s ease;
+  overflow-y: auto;
+}
+body.tac-collapsed .tac-sidebar { transform: translateX(-100%); }
+
+/* Push the page content over on desktop when the drawer is open; on mobile it
+ * just overlays (see media query). */
+.gradio-container { transition: margin-left .22s ease; }
+body:not(.tac-collapsed) .gradio-container { margin-left: var(--tac-w); }
+
+/* Brand block mirrors the app's `.sidebar-title`: a big display-font title with a
+ * red dot, plus a small uppercase subtitle. */
+.tac-brand { padding: 16px 14px 12px; border-bottom: 2px solid var(--tac-border); }
+.tac-brand-row { display: flex; align-items: flex-start; justify-content: space-between; }
+.tac-sidebar .tac-title {
+  display: block; font-family: 'Fraunces', Georgia, serif; font-weight: 900;
+  font-size: 28px; line-height: .92; letter-spacing: -.03em; color: var(--tac-ink) !important;
+}
+.tac-sidebar .tac-title::after { content: "·"; color: var(--tac-accent); }
+.tac-subtitle {
+  margin: 8px 0 0 !important; font-family: var(--tac-mono); font-size: 9px;
+  color: var(--tac-muted) !important; letter-spacing: .14em; text-transform: uppercase; line-height: 1.5;
+}
+/* Plain ‹ collapse control (like the app's .sidebar-collapse); defend against the
+ * host button reset so it stays a borderless glyph. */
+.tac-sidebar .tac-brand .tac-collapse {
+  cursor: pointer; line-height: 1; font-size: 18px; margin-left: 8px; flex-shrink: 0;
+  background: none !important; color: var(--tac-muted) !important;
+  border: 0 !important; padding: 0 !important; box-shadow: none !important;
+}
+.tac-sidebar .tac-brand .tac-collapse:hover { color: var(--tac-ink) !important; }
+
+.tac-section { padding: 12px 8px 0; }
+/* Section headers: red (transmit) with a short ink line prefix, like the app's
+ * `.sidebar h2`. !important on colour so the host text var can't blacken it. */
+.tac-section-title {
+  display: flex; align-items: center; gap: 6px;
+  font-family: var(--tac-mono); font-size: 10px; letter-spacing: .2em; text-transform: uppercase;
+  font-weight: 500; color: var(--tac-accent) !important; padding: 6px 8px 4px;
+}
+.tac-section-title::before { content: ""; height: 2px; width: 18px; background: var(--tac-ink); flex-shrink: 0; }
+/* Nav items are <a>, so a host's link theme (e.g. Gradio's prefixed `.gradio-
+ * container .prose a`) out-specifies a plain class. As an embeddable shell we
+ * defend colour/underline with `!important` so it looks the same wherever mounted. */
+.tac-sidebar .tac-nav-item {
+  display: flex; align-items: center; gap: 8px; width: 100%;
+  padding: 6px 10px; margin: 1px 0; border: 0; border-radius: 0;
+  background: none; color: var(--tac-ink) !important; font: inherit; font-family: var(--tac-font);
+  font-size: 14px; font-weight: 500; text-align: left; cursor: pointer; text-decoration: none !important;
+}
+.tac-sidebar .tac-nav-item:hover { background: var(--tac-bg-2); }
+.tac-sidebar .tac-nav-item.active { background: var(--tac-ink); color: var(--tac-paper) !important; }
+/* Force the label span to inherit the link colour. A host theme (Gradio) sets
+ * span colour from --body-text-color (dark), which on the active item's dark fill
+ * would render the label invisible. The icon span keeps its own accent colour. */
+.tac-sidebar .tac-nav-item span:not(.tac-ico) { color: inherit !important; }
+.tac-sidebar .tac-nav-item .tac-ico { width: 18px; text-align: center; color: var(--tac-accent); }
+.tac-sidebar .tac-nav-item.active .tac-ico { color: #e8a72a; } /* amber, like the app's active world icon */
+
+/* Edge tab to reopen when collapsed. Same host-button defence as above. */
+.tac-reopen {
+  position: fixed; top: 12px; left: 0; z-index: 1001; display: none;
+  background: var(--tac-bg) !important; color: var(--tac-ink) !important;
+  border: 2px solid var(--tac-border) !important; border-left: 0 !important;
+  border-radius: 0 8px 8px 0 !important; padding: 8px 10px !important;
+  cursor: pointer; font-size: 14px; line-height: 1;
+}
+body.tac-collapsed .tac-reopen { display: block; }
+
+/* Mobile: the drawer overlays full-bleed-ish and never pushes content. JS
+ * auto-collapses below this width on load + resize. */
+@media (max-width: 768px) {
+  .tac-sidebar { width: min(280px, 86vw); box-shadow: 4px 0 24px rgba(0,0,0,.3); }
+  body:not(.tac-collapsed) .gradio-container { margin-left: 0; }
+}

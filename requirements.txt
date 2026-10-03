@@ -1,0 +1,10 @@
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+gradio==6.15.2
+huggingface_hub
+# Loads .env for local `python app.py` runs (see load_dotenv in app.py). On the
+# Space there's no .env, so it's a no-op and the real Space secrets are used.
+python-dotenv
+# llama.cpp runtime for the persona + war-diary model. The CPU wheel index ships a
+# prebuilt py3-none-manylinux_2_17_x86_64 wheel (no source compile needed). Pulled
+# via the --extra-index-url in the Dockerfile.
+llama-cpp-python==0.3.25

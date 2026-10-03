@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+.venv-acestep/
+logs/
+outputs/
+user_data/

@@ -1,0 +1,41 @@
+{
+  "_doc": "Shared navigation IR — ONE source for both the React app (src/layout/Sidebar.jsx) and the Gradio Space (tiny-army app.py build_sidebar). Each item carries routing for both hosts: `href` + `view`/`page` drive React's hash router and active state; `space` is the Gradio tab label the item navigates to. React renders items with an `href`; the Space renders items with a `space`. `brand` is used by the Space only (React uses config.name).",
+  "brand": { "title": "Tiny Army", "icon": "⚔️", "subtitle": "small models, big dreams" },
+  "sections": [
+    {
+      "title": "World",
+      "items": [
+        { "label": "Game", "icon": "◆", "href": "#/stage", "view": "stage", "space": "Battle" }
+      ]
+    },
+    {
+      "title": "Sandbox",
+      "items": [
+        { "label": "Sprite Animations", "icon": "🎞", "href": "#/sandbox/sprite-animations", "view": "sandbox", "page": "movement", "space": "Sprite Animations" },
+        { "label": "Skill Forge", "icon": "⚒", "href": "#/sandbox/skill-forge", "view": "sandbox", "page": "skill-forge", "space": "Skill Forge" },
+        { "label": "Classes", "icon": "🛡", "href": "#/sandbox/classes", "view": "sandbox", "page": "classes", "space": "Classes" },
+        { "label": "Enemies", "icon": "👹", "href": "#/sandbox/enemies", "view": "sandbox", "page": "enemies", "space": "Enemies" },
+        { "label": "Levels", "href": "#/sandbox/levels", "view": "sandbox", "page": "levels" },
+        { "label": "GW Skills", "href": "#/sandbox/gw-skills", "view": "sandbox", "page": "skills" },
+        { "label": "CB Skills", "href": "#/sandbox/cb-skills", "view": "sandbox", "page": "cb-skills" },
+        { "label": "Effects", "href": "#/sandbox/effects", "view": "sandbox", "page": "effects" },
+        { "label": "Battle", "href": "#/sandbox/battle", "view": "sandbox", "page": "battle" },
+        { "label": "World Map", "icon": "🗺", "href": "#/sandbox/worldmap", "view": "sandbox", "page": "worldmap", "space": "World Map" }
+      ]
+    },
+    {
+      "title": "Barracks",
+      "items": [
+        { "label": "War Diaries", "icon": "📓", "space": "Barracks" },
+        { "label": "Personas", "icon": "🛡", "space": "Personas" }
+      ]
+    },
+    {
+      "_doc": "Space-only (Gradio) items — `space` with no `href`, so the React app skips them. Settings opens Gradio's own settings page (web/tiny.js routes it).",
+      "title": "App",
+      "items": [
+        { "label": "Settings", "icon": "⚙", "space": "Settings" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+/* Shared chrome for the Sprite Animations playground — the team-grouped character
+ * picker, the on-canvas hint, the aimed-attack compass, and the extras list.
+ * ONE source for the React app (src/views/Movement.jsx) and the Gradio Space
+ * (tiny-army web/playground.js). It is fully self-contained: the palette is
+ * scoped on `.movement-view` (copied from the auto-battler theme) so it looks
+ * identical whether mounted in the app or inside Gradio, with no dependency on
+ * the host's theme vars or sidebar classes.
+ */
+.movement-view {
+  --mv-ink: #141821;
+  --mv-ink-muted: #6d6a5f;
+  --mv-ink-faint: #8a8574;
+  --mv-paper: #f3ebdc;
+  --mv-paper-2: #ece2cc;
+  --mv-card: #fbf6ea;
+  --mv-transmit: #d8271a;
+  --mv-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  --mv-sans: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  display: flex; height: 100%; width: 100%; box-sizing: border-box;
+  color: var(--mv-ink); font-family: var(--mv-sans);
+}
+.movement-view * { box-sizing: border-box; }
+
+/* ── Team-grouped character picker ─────────────────────────────────────────── */
+.movement-picker {
+  width: 240px; flex-shrink: 0; border-right: 2px solid var(--mv-ink);
+  background: var(--mv-paper-2); overflow-y: auto; padding: 12px;
+}
+/* It's an <h2>, so the host (Gradio's `.prose h2`) blows it up and blackens it —
+ * defend size + colour with `!important`. */
+.movement-picker-title {
+  margin: 0 0 8px !important; font-family: var(--mv-mono); font-size: 11px !important;
+  font-weight: 500 !important; letter-spacing: .2em; line-height: 1.4 !important;
+  text-transform: uppercase; color: var(--mv-transmit) !important;
+}
+.movement-pack { margin-top: 8px; border-top: 1px solid var(--mv-paper); }
+.movement-pack > summary {
+  cursor: pointer; list-style: none; padding: 6px 4px; font-family: var(--mv-mono);
+  font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--mv-ink-muted);
+}
+.movement-pack > summary::-webkit-details-marker { display: none; }
+.movement-pack > summary::before { content: '▸ '; color: var(--mv-ink-faint); }
+.movement-pack[open] > summary::before { content: '▾ '; }
+/* `!important` defends the list against a host (Gradio's `.prose ul/li`) re-adding
+ * bullets + vertical margins, which spread the rows out and broke the layout. */
+.movement-pack ul { list-style: none !important; margin: 0 0 6px !important; padding: 0 !important; }
+.movement-pack li { list-style: none !important; margin: 0 !important; padding: 0 !important; display: block !important; text-align: left !important; }
+.movement-pack li::marker { content: ""; }
+/* `!important` on colour/underline/padding defends against host link + list themes
+ * (Gradio's `.prose a`) that recolour, underline, and re-pad these rows. */
+.movement-char {
+  display: block; padding: 4px 10px !important; margin: 0 !important; border-radius: 0;
+  color: var(--mv-ink) !important; text-decoration: none !important; text-align: left !important;
+  font-family: var(--mv-sans); font-size: 13px; font-weight: 500; line-height: 1.35; cursor: pointer;
+}
+.movement-char:hover { background: var(--mv-paper); }
+.movement-char.active { background: var(--mv-ink); color: var(--mv-card) !important; }
+
+/* ── Stage + canvas ────────────────────────────────────────────────────────── */
+.movement-stage { flex: 1; min-width: 0; position: relative; }
+.movement-canvas { position: absolute; inset: 0; display: flex; }
+.movement-canvas canvas { display: block; width: 100%; height: 100%; }
+
+/* ── On-canvas hint (instructions + toggles) ───────────────────────────────── */
+.movement-hint {
+  position: absolute; bottom: 12px; left: 12px; z-index: 5; pointer-events: none;
+  font-family: var(--mv-mono); font-size: 10px; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--mv-ink); background: var(--mv-card); border: 1.5px solid var(--mv-ink);
+  padding: 4px 8px; box-shadow: 2px 2px 0 var(--mv-ink); max-width: calc(100% - 24px);
+}
+/* `!important` on color so a host text rule can't make the light glyph match the
+ * dark chip background (which renders the keys as solid black boxes under Gradio). */
+.movement-key {
+  font-family: var(--mv-mono); font-weight: 700; background: var(--mv-ink) !important;
+  color: var(--mv-card) !important; padding: 0 4px; border-radius: 2px;
+}
+.movement-effects-toggle { margin-left: 4px; cursor: pointer; opacity: .8; pointer-events: auto; }
+
+/* ── Aimed-attack debug compass ────────────────────────────────────────────── */
+.movement-compass-wrap {
+  position: absolute; top: 12px; left: 12px; z-index: 5; pointer-events: none;
+  display: flex; flex-direction: column; gap: 4px;
+  background: var(--mv-card); border: 1.5px solid var(--mv-ink); box-shadow: 2px 2px 0 var(--mv-ink); padding: 6px;
+}
+.movement-compass { display: grid; grid-template-columns: repeat(3, 18px); grid-template-rows: repeat(3, 18px); }
+.movement-compass span { display: flex; align-items: center; justify-content: center; font-size: 12px; color: var(--mv-ink-faint) !important; }
+.movement-compass span.on { color: var(--mv-card) !important; background: var(--mv-ink); border-radius: 3px; }
+.movement-compass-label { font-family: var(--mv-mono); font-size: 9px; letter-spacing: .08em; color: var(--mv-ink-muted); text-align: center; }
+
+/* ── Extras list ───────────────────────────────────────────────────────────── */
+.movement-extras {
+  position: absolute; top: 12px; right: 12px; z-index: 5;
+  display: flex; flex-direction: column; gap: 6px; align-items: flex-end;
+  max-width: min(360px, 55%);
+  background: var(--mv-card); border: 1.5px solid var(--mv-ink); box-shadow: 2px 2px 0 var(--mv-ink); padding: 6px 8px;
+}
+.movement-extras-hint {
+  font-family: var(--mv-mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; color: var(--mv-ink-muted);
+}
+.movement-extras-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+/* Host button themes (Gradio's `.gradio-container button`) enlarge these and swap
+ * the font — defend the type + box props with `!important` so they stay small mono. */
+.movement-extra {
+  font-family: var(--mv-mono) !important; font-size: 9px !important; line-height: 1.2 !important;
+  letter-spacing: .04em !important; text-transform: uppercase !important; font-weight: 500 !important;
+  color: var(--mv-ink) !important; background: var(--mv-card) !important; border: 1.5px solid var(--mv-ink) !important;
+  cursor: pointer; padding: 2px 6px !important; display: inline-flex; align-items: center; gap: 4px;
+  min-height: 0 !important; border-radius: 0 !important; box-shadow: none !important;
+}
+.movement-extra:hover { background: var(--mv-paper) !important; }
+.movement-extra.active { color: var(--mv-card) !important; background: var(--mv-ink) !important; }
+.movement-extra-num { font-weight: 700; opacity: .55; }
+.movement-extra-tag { font-size: 7px; letter-spacing: .06em; padding: 0 2px; margin-left: 3px; border: 1px solid currentColor; opacity: .6; vertical-align: middle; }
+
+/* ── Mobile: stack the picker above the stage ──────────────────────────────── */
+@media (max-width: 768px) {
+  .movement-view { flex-direction: column; }
+  .movement-picker {
+    width: 100%; max-height: 32%; border-right: 0; border-bottom: 2px solid var(--mv-ink);
+  }
+  .movement-extras { max-width: 60%; }
+}

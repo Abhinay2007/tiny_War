@@ -1,0 +1,161 @@
+{
+  "enemies": {
+    "feral-blade": {
+      "name": "Feral Blade",
+      "sprite": "dark-orc-army-feral-blade",
+      "attackType": "melee",
+      "attackAnim": "attack",
+      "attackEffects": [
+        "auto"
+      ],
+      "projectile": "auto",
+      "stats": {
+        "hp": 70,
+        "armor": 40,
+        "basicDamage": 14,
+        "skillDamage": 22
+      },
+      "skills": [
+        385,
+        384
+      ],
+      "skillCfg": {}
+    },
+    "orc-scout": {
+      "name": "Orc Scout",
+      "sprite": "dark-orc-army-orc-scout",
+      "attackType": "melee",
+      "attackAnim": "attack",
+      "attackEffects": [
+        "auto"
+      ],
+      "projectile": "auto",
+      "stats": {
+        "hp": 60,
+        "armor": 35,
+        "basicDamage": 12,
+        "skillDamage": 20
+      },
+      "skills": [],
+      "skillCfg": {}
+    },
+    "orc-raider": {
+      "name": "Orc Raider",
+      "sprite": "dark-orc-army-orc-raider",
+      "attackType": "melee",
+      "attackAnim": "attack",
+      "attackEffects": [
+        "auto"
+      ],
+      "projectile": "auto",
+      "stats": {
+        "hp": 90,
+        "armor": 50,
+        "basicDamage": 18,
+        "skillDamage": 28
+      },
+      "skills": [
+        382
+      ],
+      "skillCfg": {}
+    },
+    "feral-berserker": {
+      "name": "Feral Berserker",
+      "sprite": "dark-orc-army-feral-berserker",
+      "attackType": "melee",
+      "attackAnim": "attack",
+      "attackEffects": [
+        "auto"
+      ],
+      "projectile": "auto",
+      "stats": {
+        "hp": 120,
+        "armor": 60,
+        "basicDamage": 22,
+        "skillDamage": 36
+      },
+      "skills": [
+        384
+      ],
+      "skillCfg": {}
+    },
+    "feral-arbalist": {
+      "name": "Feral Arbalist",
+      "sprite": "dark-orc-army-feral-arbalist",
+      "attackType": "ranged",
+      "attackAnim": "attack",
+      "attackEffects": [],
+      "projectile": "auto",
+      "stats": {
+        "hp": 80,
+        "armor": 50,
+        "basicDamage": 16,
+        "skillDamage": 28
+      },
+      "skills": [
+        435
+      ],
+      "skillCfg": {}
+    },
+    "feral-phalanx": {
+      "name": "Feral Phalanx",
+      "sprite": "dark-orc-army-feral-phalanx",
+      "attackType": "melee",
+      "attackAnim": "attack",
+      "attackEffects": [
+        "auto"
+      ],
+      "projectile": "auto",
+      "stats": {
+        "hp": 160,
+        "armor": 80,
+        "basicDamage": 16,
+        "skillDamage": 24
+      },
+      "skills": [
+        384
+      ],
+      "skillCfg": {}
+    },
+    "warbreed-berserker": {
+      "name": "Warbreed Berserker",
+      "sprite": "dark-orc-army-warbreed-berserker",
+      "attackType": "melee",
+      "attackAnim": "attack",
+      "attackEffects": [
+        "auto"
+      ],
+      "projectile": "auto",
+      "stats": {
+        "hp": 180,
+        "armor": 70,
+        "basicDamage": 28,
+        "skillDamage": 44
+      },
+      "skills": [
+        385
+      ],
+      "skillCfg": {}
+    },
+    "cave-troll": {
+      "name": "Cave Troll",
+      "sprite": "dark-orc-army-cave-troll",
+      "attackType": "melee",
+      "attackAnim": "attack",
+      "attackEffects": [
+        "auto"
+      ],
+      "projectile": "auto",
+      "stats": {
+        "hp": 400,
+        "armor": 90,
+        "basicDamage": 40,
+        "skillDamage": 70
+      },
+      "skills": [
+        385
+      ],
+      "skillCfg": {}
+    }
+  }
+}

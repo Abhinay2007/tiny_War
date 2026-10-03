@@ -1,0 +1,8 @@
+# ACE-Step pulls its own pinned deps (transformers==4.50, accelerate==1.6, spacy==3.8, torch, ...).
+# Those conflict with the aya/klein sidecars' transformers>=5.4, so this sidecar runs in its OWN
+# venv (.venv-acestep, Python 3.12 — spacy 3.8.4 has no 3.13 wheel). Install with:
+#   python3.12 -m venv .venv-acestep
+#   .venv-acestep/bin/pip install -r spaces/acestep-zerogpu/requirements.txt
+git+https://github.com/ace-step/ACE-Step.git
+torchcodec  # torchaudio>=2.9 writes audio via torchcodec; ACE-Step's save step needs it
+python-dotenv
