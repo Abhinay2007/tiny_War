@@ -7,6 +7,11 @@ generation are optional integrations.
 
 ## Live Demo Link: https://tiny-war.onrender.com/
 
+## GamePlay:
+<image src="Image/image.png">
+<image src="Image/image copy.png">
+<image src="Image/image copy 2.png">
+
 ## Features
 
 - AI-assisted hero and text generation through a configured Tiny Aya service
