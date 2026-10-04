@@ -5,6 +5,8 @@ conversations, while the game itself runs in the browser. The Python service
 provides the application shell, APIs, and static game assets. Image and voice
 generation are optional integrations.
 
+## Live Demo Link: https://tiny-war.onrender.com/
+
 ## Features
 
 - AI-assisted hero and text generation through a configured Tiny Aya service
